@@ -1,0 +1,25 @@
+{
+  "name": "teletenor-contralto-design-docs",
+  "version": "0.0.1",
+  "description": "Design Documents for teletenor-conralto",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabby-jun/teletenor-contralto-design-docs.git"
+  },
+  "author": "Tham Wang Jun",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tabby-jun/teletenor-contralto-design-docs/issues"
+  },
+  "homepage": "https://github.com/tabby-jun/teletenor-contralto-design-docs#readme",
+  "dependencies": {
+    "node-plantuml": "^0.9.0"
+  }
+}
