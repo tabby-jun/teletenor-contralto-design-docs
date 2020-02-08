@@ -1,0 +1,55 @@
+@startuml "Contralto Container Diagram"
+
+!include ../C4-PlantUML/C4_Context.puml
+!include ../C4-PlantUML/C4_Container.puml
+!include ../C4-PlantUML/C4_Component.puml
+
+skinparam wrapWidth 200
+'skinparam maxMessageSize 200
+
+LAYOUT_LEFT_RIGHT
+
+Person_Ext(user, Telegram User, "A Telegram user")
+
+System_Boundary(c1, "Telegram") {
+    System_Ext(telegramWebhookService, "Telegram Webhook Server")
+}
+
+System_Boundary(c2, "Amazon Web Services") {
+
+    Container(awsAPIGateway, "Webhook Gateway", "AWS API Gateway", "Receives webhook requests from Telegram")
+
+    Container(processingQueue, "Task Processing Queue", "AWS Simple Queue Service", "Message queue for processing tasks")
+
+    Container(requestQueue, "Network Requests Queue", "AWS Simple Queue Service", "Message Queue for network request tasks")
+
+    Container(processingLambda, "Processing Lambda Functions", "AWS Lambda Functions", "Computational Processing Functions")
+
+    Container(requestLambda, "Network Request Lambda Functions", "AWS Lambda Functions", "Processing of External Network Requests")
+
+    ContainerDb(dynamoDb, "Tenor ID Store", "AWS DynamoDB", "Storage of Tenor IDs")
+}
+
+System_Boundary(c3, "Tenor API") {
+    System_Ext(tenorApiService, "Tenor API Gateway")
+}
+
+Rel(user, telegramWebhookService, "Sends search query", "Telegram Protocols")
+
+Rel(telegramWebhookService, awsAPIGateway, "Sends webhook request", "HTTP POST")
+
+Rel(awsAPIGateway, processingQueue, "Queue Search Query", "HTTP POST")
+
+Rel_Neighbor(processingQueue, processingLambda, "Invoke")
+
+Rel(processingLambda, requestQueue, "Queue Network Request Tasks", "HTTP POST")
+
+Rel_Neighbor(requestQueue, requestLambda, "Invoke")
+
+Rel(requestLambda, processingQueue, "Queue Network Request Responses", "HTTP POST")
+
+Rel(requestLambda, tenorApiService, "Send Tenor API Request", "REST")
+
+Rel(requestLambda, dynamoDb, "Query for Tenor ID")
+
+@enduml
