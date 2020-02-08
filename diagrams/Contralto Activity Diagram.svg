@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="842px" preserveAspectRatio="none" style="width:1501px;height:842px;" version="1.1" viewBox="0 0 1501 842" width="1501px" zoomAndPan="magnify"><defs/><g><ellipse cx="740" cy="20" fill="#454645" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="170" x="655" y="50"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="150" x="665" y="72.0645">Receive Telegram Update</text><polygon fill="#FFFFFF" points="694,104.584,786,104.584,798,116.584,786,128.584,694,128.584,682,116.584,694,104.584" style="stroke: #2D74BA; stroke-width: 1.5;"/><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="694" y="120.9587">Type of update?</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="569" y="114.2744">inline_query update</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="116" x="798" y="114.2744">chosen_inline_result</text><rect fill="#FFFFFF" height="107.5039" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="142" x="289" y="138.584"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="299" y="160.6484">Extract</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="299" y="175.2324">Search Query,</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="299" y="189.8164">Page Number,</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="299" y="204.4004">Inline Query ID,</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="299" y="218.9844">User ID,</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="122" x="299" y="233.5684">User Language Code</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="208" x="256" y="280.6719"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="188" x="266" y="302.7363">Send DB query if User ID Exists</text><polygon fill="#FFFFFF" points="320,349.8398,400,349.8398,412,361.8398,400,373.8398,320,373.8398,308,361.8398,320,349.8398" style="stroke: #2D74BA; stroke-width: 1.5;"/><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="320" y="366.2146">User ID Exists</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="288" y="359.5303">yes</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="14" x="412" y="359.5303">no</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="330" x="10" y="383.8398"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="310" x="20" y="405.9043">Send DB request to get User's Tenor Anonymous ID</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="370" x="360" y="383.8398"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="350" x="370" y="405.9043">Send request to Tenor to create new Tenor Anonymous ID</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="341" x="374.5" y="453.0078"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="321" x="384.5" y="475.0723">Send DB request to store User's Tenor Anonymous ID</text><polygon fill="#FFFFFF" points="360,493.5918,372,505.5918,360,517.5918,348,505.5918,360,493.5918" style="stroke: #2D74BA; stroke-width: 1.5;"/><polygon fill="#FFFFFF" points="294,552.1758,426,552.1758,438,564.1758,426,576.1758,294,576.1758,282,564.1758,294,552.1758" style="stroke: #2D74BA; stroke-width: 1.5;"/><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="132" x="294" y="568.5505">Search Query is empty</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="14" x="268" y="561.8662">no</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="438" y="561.8662">yes</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="222" x="117.5" y="586.1758"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="202" x="127.5" y="608.2402">Send Search request to Tenor API</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="264" x="359.5" y="586.1758"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="244" x="369.5" y="608.2402">Send Trending GIFs request to Tenor API</text><polygon fill="#FFFFFF" points="360,626.7598,372,638.7598,360,650.7598,348,638.7598,360,626.7598" style="stroke: #2D74BA; stroke-width: 1.5;"/><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="411" x="154.5" y="670.7598"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="391" x="164.5" y="692.8242">Filter response for both preview media URLs and MP4 media URLs</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="291" x="214.5" y="725.3438"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="271" x="224.5" y="747.4082">Send answerInlineQuery request to Telegram</text><rect fill="#FFFFFF" height="92.9199" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="142" x="1049" y="138.584"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="1059" y="160.6484">Extract</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="1059" y="175.2324">result_id,</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="1059" y="189.8164">query,</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="1059" y="204.4004">User ID,</text><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="122" x="1059" y="218.9844">User Language Code</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="208" x="1016" y="266.0879"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="188" x="1026" y="288.1523">Send DB query if User ID Exists</text><polygon fill="#FFFFFF" points="1080,335.2559,1160,335.2559,1172,347.2559,1160,359.2559,1080,359.2559,1068,347.2559,1080,335.2559" style="stroke: #2D74BA; stroke-width: 1.5;"/><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="1080" y="351.6306">User ID Exists</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="1048" y="344.9463">yes</text><text fill="#454645" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="14" x="1172" y="344.9463">no</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="330" x="770" y="369.2559"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="310" x="780" y="391.3203">Send DB request to get User's Tenor Anonymous ID</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="370" x="1120" y="369.2559"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="350" x="1130" y="391.3203">Send request to Tenor to create new Tenor Anonymous ID</text><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="341" x="1134.5" y="438.4238"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="321" x="1144.5" y="460.4883">Send DB request to store User's Tenor Anonymous ID</text><polygon fill="#FFFFFF" points="1120,479.0078,1132,491.0078,1120,503.0078,1108,491.0078,1120,479.0078" style="stroke: #2D74BA; stroke-width: 1.5;"/><rect fill="#FFFFFF" height="34.584" rx="12.5" ry="12.5" style="stroke: #2D74BA; stroke-width: 1.5;" width="216" x="1012" y="537.5918"/><text fill="#454645" font-family="Verdana" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="196" x="1022" y="559.6563">Send Share request to Tenor API</text><polygon fill="#FFFFFF" points="740,765.9277,752,777.9277,740,789.9277,728,777.9277,740,765.9277" style="stroke: #2D74BA; stroke-width: 1.5;"/><ellipse cx="740" cy="820.9277" fill="#FFFFFF" rx="11" ry="11" style="stroke: #454645; stroke-width: 1.0;"/><ellipse cx="740" cy="820.9277" fill="#454645" rx="6" ry="6" style="stroke: #A2A2A2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="740" x2="740" y1="30" y2="50"/><polygon fill="#00B2E2" points="736,40,740,50,744,40,740,44" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="360" y1="246.0879" y2="280.6719"/><polygon fill="#00B2E2" points="356,270.6719,360,280.6719,364,270.6719,360,274.6719" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="545" x2="545" y1="418.4238" y2="453.0078"/><polygon fill="#00B2E2" points="541,443.0078,545,453.0078,549,443.0078,545,447.0078" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="308" x2="175" y1="361.8398" y2="361.8398"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="175" x2="175" y1="361.8398" y2="383.8398"/><polygon fill="#00B2E2" points="171,373.8398,175,383.8398,179,373.8398,175,377.8398" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="412" x2="545" y1="361.8398" y2="361.8398"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="545" x2="545" y1="361.8398" y2="383.8398"/><polygon fill="#00B2E2" points="541,373.8398,545,383.8398,549,373.8398,545,377.8398" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="175" x2="175" y1="418.4238" y2="505.5918"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="175" x2="348" y1="505.5918" y2="505.5918"/><polygon fill="#00B2E2" points="338,501.5918,348,505.5918,338,509.5918,342,505.5918" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="545" x2="545" y1="487.5918" y2="505.5918"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="545" x2="372" y1="505.5918" y2="505.5918"/><polygon fill="#00B2E2" points="382,501.5918,372,505.5918,382,509.5918,378,505.5918" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="360" y1="315.2559" y2="349.8398"/><polygon fill="#00B2E2" points="356,339.8398,360,349.8398,364,339.8398,360,343.8398" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="282" x2="228.5" y1="564.1758" y2="564.1758"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="228.5" x2="228.5" y1="564.1758" y2="586.1758"/><polygon fill="#00B2E2" points="224.5,576.1758,228.5,586.1758,232.5,576.1758,228.5,580.1758" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="438" x2="491.5" y1="564.1758" y2="564.1758"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="491.5" x2="491.5" y1="564.1758" y2="586.1758"/><polygon fill="#00B2E2" points="487.5,576.1758,491.5,586.1758,495.5,576.1758,491.5,580.1758" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="228.5" x2="228.5" y1="620.7598" y2="638.7598"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="228.5" x2="348" y1="638.7598" y2="638.7598"/><polygon fill="#00B2E2" points="338,634.7598,348,638.7598,338,642.7598,342,638.7598" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="491.5" x2="491.5" y1="620.7598" y2="638.7598"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="491.5" x2="372" y1="638.7598" y2="638.7598"/><polygon fill="#00B2E2" points="382,634.7598,372,638.7598,382,642.7598,378,638.7598" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="360" y1="517.5918" y2="552.1758"/><polygon fill="#00B2E2" points="356,542.1758,360,552.1758,364,542.1758,360,546.1758" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="360" y1="650.7598" y2="670.7598"/><polygon fill="#00B2E2" points="356,660.7598,360,670.7598,364,660.7598,360,664.7598" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="360" y1="705.3438" y2="725.3438"/><polygon fill="#00B2E2" points="356,715.3438,360,725.3438,364,715.3438,360,719.3438" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1120" x2="1120" y1="231.5039" y2="266.0879"/><polygon fill="#00B2E2" points="1116,256.0879,1120,266.0879,1124,256.0879,1120,260.0879" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1305" x2="1305" y1="403.8398" y2="438.4238"/><polygon fill="#00B2E2" points="1301,428.4238,1305,438.4238,1309,428.4238,1305,432.4238" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1068" x2="935" y1="347.2559" y2="347.2559"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="935" x2="935" y1="347.2559" y2="369.2559"/><polygon fill="#00B2E2" points="931,359.2559,935,369.2559,939,359.2559,935,363.2559" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1172" x2="1305" y1="347.2559" y2="347.2559"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1305" x2="1305" y1="347.2559" y2="369.2559"/><polygon fill="#00B2E2" points="1301,359.2559,1305,369.2559,1309,359.2559,1305,363.2559" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="935" x2="935" y1="403.8398" y2="491.0078"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="935" x2="1108" y1="491.0078" y2="491.0078"/><polygon fill="#00B2E2" points="1098,487.0078,1108,491.0078,1098,495.0078,1102,491.0078" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1305" x2="1305" y1="473.0078" y2="491.0078"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1305" x2="1132" y1="491.0078" y2="491.0078"/><polygon fill="#00B2E2" points="1142,487.0078,1132,491.0078,1142,495.0078,1138,491.0078" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1120" x2="1120" y1="300.6719" y2="335.2559"/><polygon fill="#00B2E2" points="1116,325.2559,1120,335.2559,1124,325.2559,1120,329.2559" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1120" x2="1120" y1="503.0078" y2="537.5918"/><polygon fill="#00B2E2" points="1116,527.5918,1120,537.5918,1124,527.5918,1120,531.5918" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="682" x2="360" y1="116.584" y2="116.584"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="360" y1="116.584" y2="138.584"/><polygon fill="#00B2E2" points="356,128.584,360,138.584,364,128.584,360,132.584" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="798" x2="1120" y1="116.584" y2="116.584"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1120" x2="1120" y1="116.584" y2="138.584"/><polygon fill="#00B2E2" points="1116,128.584,1120,138.584,1124,128.584,1120,132.584" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="360" y1="759.9277" y2="777.9277"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="360" x2="728" y1="777.9277" y2="777.9277"/><polygon fill="#00B2E2" points="718,773.9277,728,777.9277,718,781.9277,722,777.9277" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1120" x2="1120" y1="572.1758" y2="777.9277"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="1120" x2="752" y1="777.9277" y2="777.9277"/><polygon fill="#00B2E2" points="762,773.9277,752,777.9277,762,781.9277,758,777.9277" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="740" x2="740" y1="84.584" y2="104.584"/><polygon fill="#00B2E2" points="736,94.584,740,104.584,744,94.584,740,98.584" style="stroke: #00B2E2; stroke-width: 1.0;"/><line style="stroke: #00B2E2; stroke-width: 1.5;" x1="740" x2="740" y1="789.9277" y2="809.9277"/><polygon fill="#00B2E2" points="736,799.9277,740,809.9277,744,799.9277,740,803.9277" style="stroke: #00B2E2; stroke-width: 1.0;"/><!--
+@startuml "Contralto Activity Diagram"
+
+
+skinparam shadowing false
+skinparam DefaultFontName Proxima Nova
+skinparam ArrowColor #00b2e2
+skinparam DefaultFontColor #454645
+
+skinparam ActivityBorderColor #2D74BA
+skinparam ActivityDiamondBorderColor #2D74BA
+skinparam ActorBorderColor #2D74BA
+skinparam AgentBorderColor #2D74BA
+skinparam ArtifactBorderColor #2D74BA
+skinparam CardBorderColor #2D74BA
+skinparam ClassBorderColor #2D74BA
+skinparam CloudBorderColor #2D74BA
+skinparam CollectionsBorderColor #2D74BA
+skinparam ComponentBorderColor #2D74BA
+skinparam ControlBorderColor #2D74BA
+skinparam BoundaryBorderColor #2D74BA
+skinparam DatabaseBorderColor #2D74BA
+skinparam EntityBorderColor #2D74BA
+skinparam FileBorderColor #2D74BA
+skinparam FolderBorderColor #2D74BA
+skinparam FrameBorderColor #2D74BA
+skinparam InterfaceBorderColor #2D74BA
+skinparam LegendBorderColor #2D74BA
+skinparam NodeBorderColor #2D74BA
+skinparam NoteBorderColor #2D74BA
+skinparam ObjectBorderColor #2D74BA
+skinparam PackageBorderColor #2D74BA
+skinparam PageBorderColor #2D74BA
+skinparam ParticipantBorderColor #2D74BA
+skinparam PartitionBorderColor #2D74BA
+skinparam QueueBorderColor #2D74BA
+skinparam RectangleBorderColor #2D74BA
+skinparam SequenceBoxBorderColor #2D74BA
+skinparam SequenceDividerBorderColor #2D74BA
+skinparam SequenceGroupBorderColor #2D74BA
+skinparam SequenceLifeLineBorderColor #2D74BA
+skinparam SequenceReferenceBorderColor #2D74BA
+skinparam StackBorderColor #2D74BA
+skinparam StateBorderColor #2D74BA
+skinparam StereotypeABorderColor #2D74BA
+skinparam StereotypeCBorderColor #2D74BA
+skinparam StereotypeEBorderColor #2D74BA
+skinparam StereotypeIBorderColor #2D74BA
+skinparam StereotypeNBorderColor #2D74BA
+skinparam StorageBorderColor #2D74BA
+skinparam SwimlaneBorderColor #2D74BA
+skinparam UsecaseBorderColor #2D74BA
+
+skinparam ActivityBackgroundColor #FFFFFF
+skinparam ActivityDiamondBackgroundColor #FFFFFF
+skinparam ActorBackgroundColor #FFFFFF
+skinparam AgentBackgroundColor #FFFFFF
+skinparam ArtifactBackgroundColor #FFFFFF
+skinparam BackgroundColor #FFFFFF
+skinparam BoundaryBackgroundColor #FFFFFF
+skinparam CardBackgroundColor #FFFFFF
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassHeaderBackgroundColor #FFFFFF
+skinparam CloudBackgroundColor #FFFFFF
+skinparam CollectionsBackgroundColor #FFFFFF
+skinparam ComponentBackgroundColor #FFFFFF
+skinparam BoundaryBackgroundColor #FFFFFF
+skinparam ControlBackgroundColor #FFFFFF
+skinparam DatabaseBackgroundColor #FFFFFF
+skinparam EntityBackgroundColor #FFFFFF
+skinparam FileBackgroundColor #FFFFFF
+skinparam FolderBackgroundColor #FFFFFF
+skinparam FrameBackgroundColor #FFFFFF
+skinparam IconPackageBackgroundColor #FFFFFF
+skinparam IconPrivateBackgroundColor #FFFFFF
+skinparam IconProtectedBackgroundColor #FFFFFF
+skinparam IconPublicBackgroundColor #FFFFFF
+skinparam InterfaceBackgroundColor #FFFFFF
+skinparam LegendBackgroundColor #FFFFFF
+skinparam NodeBackgroundColor #FFFFFF
+skinparam NoteBackgroundColor #FFFFFF
+skinparam ObjectBackgroundColor #FFFFFF
+skinparam PackageBackgroundColor #FFFFFF
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam PartitionBackgroundColor #FFFFFF
+skinparam QueueBackgroundColor #FFFFFF
+skinparam RectangleBackgroundColor #FFFFFF
+skinparam SequenceBoxBackgroundColor #FFFFFF
+skinparam SequenceDividerBackgroundColor #FFFFFF
+skinparam SequenceGroupBackgroundColor #FFFFFF
+skinparam SequenceGroupBodyBackgroundColor #FFFFFF
+skinparam SequenceLifeLineBackgroundColor #FFFFFF
+skinparam SequenceReferenceBackgroundColor #FFFFFF
+skinparam SequenceReferenceHeaderBackgroundColor #FFFFFF
+skinparam StackBackgroundColor #FFFFFF
+skinparam StateBackgroundColor #FFFFFF
+skinparam StereotypeABackgroundColor #FFFFFF
+skinparam StereotypeCBackgroundColor #FFFFFF
+skinparam StereotypeEBackgroundColor #FFFFFF
+skinparam StereotypeIBackgroundColor #FFFFFF
+skinparam StereotypeNBackgroundColor #FFFFFF
+skinparam StorageBackgroundColor #FFFFFF
+skinparam TitleBackgroundColor #FFFFFF
+skinparam UsecaseBackgroundColor #FFFFFF
+
+skinparam ActivityStartColor #454645
+skinparam ActivityEndColor #454645
+skinparam StateStartColor #454645
+skinparam StateEndColor #454645
+
+skinparam DefaultFontName "Verdana"
+
+start
+
+:Receive Telegram Update;
+
+if (Type of update?) then (inline_query update)
+
+:Extract \nSearch Query, \nPage Number, \nInline Query ID, \nUser ID, \nUser Language Code;
+:Send DB query if User ID Exists;
+
+if (User ID Exists) then (yes)
+    :Send DB request to get User's Tenor Anonymous ID;
+else(no)
+    :Send request to Tenor to create new Tenor Anonymous ID;
+    :Send DB request to store User's Tenor Anonymous ID;
+endif
+
+if (Search Query is empty) then (no)
+    :Send Search request to Tenor API;
+else (yes)
+    :Send Trending GIFs request to Tenor API;
+endif
+
+:Filter response for both preview media URLs and MP4 media URLs;
+:Send answerInlineQuery request to Telegram;
+
+else (chosen_inline_result)
+:Extract \nresult_id, \nquery, \nUser ID, \nUser Language Code;
+:Send DB query if User ID Exists;
+
+if (User ID Exists) then (yes)
+    :Send DB request to get User's Tenor Anonymous ID;
+else(no)
+    :Send request to Tenor to create new Tenor Anonymous ID;
+    :Send DB request to store User's Tenor Anonymous ID;
+endif
+
+:Send Share request to Tenor API;
+
+endif
+
+stop
+
+@enduml
+
+PlantUML version 1.2019.09(Tue Aug 27 00:19:51 SGT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 13.0.2+8
+Operating System: Mac OS X
+OS Version: 10.15.3
+Default Encoding: UTF-8
+Language: en
+Country: SG
+--></g></svg>

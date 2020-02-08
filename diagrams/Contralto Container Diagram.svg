@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="604px" preserveAspectRatio="none" style="width:2125px;height:604px;" version="1.1" viewBox="0 0 2125 604" width="2125px" zoomAndPan="magnify"><defs/><g><!--cluster c1--><rect fill="#FFFFFF" height="156" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="214" x="326" y="240"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="393" y="255.5352">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="77" x="394.5" y="273.957">Telegram</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="406.5" y="288.9336">[System]</text><!--cluster c2--><rect fill="#FFFFFF" height="407" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1425" x="683" y="24"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="1355.5" y="39.5352">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="177" x="1307" y="57.957">Amazon Web Services</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1369" y="72.9336">[System]</text><!--cluster c3--><rect fill="#FFFFFF" height="138" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="205" x="1909" y="455"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="1971.5" y="470.5352">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="1971.5" y="488.957">Tenor API</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1985" y="503.9336">[System]</text><!--entity telegramWebhookService--><rect fill="#999999" height="71.8203" style="stroke: #8A8A8A; stroke-width: 1.5;" width="182" x="342" y="308"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="380.5" y="329.6016">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="352" y="347.6016">Telegram Webhook</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="50" x="408" y="366.4453">Server</text><!--entity awsAPIGateway--><rect fill="#438DD5" height="116.5742" style="stroke: #3C7FC0; stroke-width: 1.5;" width="212" x="699" y="285.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="772.5" y="307.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="731" y="325.1016">Webhook Gateway</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="107" x="751.5" y="340.0781">[AWS API Gateway]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="807" y="356.1445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="709" y="372.6328">Receives webhook requests</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="754" y="389.1211">from Telegram</text><!--entity processingQueue--><rect fill="#438DD5" height="116.5742" style="stroke: #3C7FC0; stroke-width: 1.5;" width="212" x="1113" y="285.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="1186.5" y="307.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="1123" y="325.1016">Task Processing Queue</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="159" x="1139.5" y="340.0781">[AWS Simple Queue Service]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1221" y="356.1445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="1152" y="372.6328">Message queue for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="1162" y="389.1211">processing tasks</text><!--entity requestQueue--><rect fill="#438DD5" height="135.418" style="stroke: #3C7FC0; stroke-width: 1.5;" width="216" x="1518" y="92.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="1593.5" y="114.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="1549.5" y="132.1016">Network Requests</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1599.5" y="150.9453">Queue</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="159" x="1546.5" y="165.9219">[AWS Simple Queue Service]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1628" y="181.9883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="1528" y="198.4766">Message Queue for network</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="1580.5" y="214.9648">request tasks</text><!--entity processingLambda--><rect fill="#438DD5" height="135.418" style="stroke: #3C7FC0; stroke-width: 1.5;" width="204" x="1117" y="94.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="1186.5" y="116.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="1136.5" y="134.1016">Processing Lambda</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="1178.5" y="152.9453">Functions</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="140" x="1149" y="167.9219">[AWS Lambda Functions]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1221" y="183.9883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="1127" y="200.4766">Computational Processing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="1185.5" y="216.9648">Functions</text><!--entity requestLambda--><rect fill="#438DD5" height="135.418" style="stroke: #3C7FC0; stroke-width: 1.5;" width="177" x="1537.5" y="279.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="1593.5" y="301.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="1554" y="319.1016">Network Request</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="1550.5" y="337.9453">Lambda Functions</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="140" x="1556" y="352.9219">[AWS Lambda Functions]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1628" y="368.9883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="1547.5" y="385.4766">Processing of External</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="123" x="1564.5" y="401.9648">Network Requests</text><!--entity dynamoDb--><path d="M1931,302.5 C1931,292.5 2011.5,292.5 2011.5,292.5 C2011.5,292.5 2092,292.5 2092,302.5 L2092,391.5859 C2092,401.5859 2011.5,401.5859 2011.5,401.5859 C2011.5,401.5859 1931,401.5859 1931,391.5859 L1931,302.5 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M1931,302.5 C1931,312.5 2011.5,312.5 2011.5,312.5 C2011.5,312.5 2092,312.5 2092,302.5 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="1979" y="328.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="1953" y="346.1016">Tenor ID Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="99" x="1962" y="361.0781">[AWS DynamoDB]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2013.5" y="377.1445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="141" x="1941" y="393.6328">Storage of Tenor IDs</text><!--entity tenorApiService--><rect fill="#999999" height="52.9766" style="stroke: #8A8A8A; stroke-width: 1.5;" width="173" x="1925" y="523.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="1959" y="545.1016">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="153" x="1935" y="563.1016">Tenor API Gateway</text><!--entity user--><rect fill="#686868" height="85.9531" style="stroke: #8A8A8A; stroke-width: 1.5;" width="139" x="6" y="301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="23" y="322.6016">«external_person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="119" x="16" y="340.6016">Telegram User</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="77.5" y="357.5117"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="19" y="374">A Telegram user</text><!--link user to telegramWebhookService--><path d="M145.04,344 C199.5,344 276.29,344 336.73,344 " fill="none" id="user-&gt;telegramWebhookService" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="341.79,344,332.79,340,336.79,344,332.79,348,341.79,344" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="176" y="326.5684">Sends search query</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="119" x="183" y="340.9121">[Telegram Protocols]</text><!--link telegramWebhookService to awsAPIGateway--><path d="M524.04,344 C575.12,344 639.45,344 693.56,344 " fill="none" id="telegramWebhookService-&gt;awsAPIGateway" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="698.77,344,689.77,340,693.77,344,689.77,348,698.77,344" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="557" y="311.5684">Sends webhook</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="585.5" y="326.8789">request</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="574.5" y="341.2227">[HTTP POST]</text><!--link awsAPIGateway to processingQueue--><path d="M911.03,344 C971.21,344 1046.65,344 1107.69,344 " fill="none" id="awsAPIGateway-&gt;processingQueue" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1112.8,344,1103.8,340,1107.8,344,1103.8,348,1112.8,344" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="942" y="326.5684">Queue Search Query</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="975" y="340.9121">[HTTP POST]</text><!--link processingQueue to processingLambda--><path d="M1219,285.41 C1219,269.31 1219,251.65 1219,234.85 " fill="none" id="processingQueue-&gt;processingLambda" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1219,229.66,1215,238.66,1219,234.66,1223,238.66,1219,229.66" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="1185" y="262.5684">Invoke</text><!--link processingLambda to requestQueue--><path d="M1321.15,161.5 C1379.38,161.21 1452.67,160.85 1512.67,160.55 " fill="none" id="processingLambda-&gt;requestQueue" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1517.7,160.53,1508.6886,156.5557,1512.7,160.5443,1508.7115,164.5557,1517.7,160.53" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="1367" y="128.5684">Queue Network</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="1372.5" y="143.8789">Request Tasks</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="1384.5" y="158.2227">[HTTP POST]</text><!--link requestQueue to requestLambda--><path d="M1626,227.73 C1626,242.87 1626,258.99 1626,274.32 " fill="none" id="requestQueue-&gt;requestLambda" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1626,279.49,1630,270.49,1626,274.49,1622,270.49,1626,279.49" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="1592" y="258.5684">Invoke</text><!--link requestLambda to processingQueue--><path d="M1537.49,346.35 C1476.73,345.9 1395.32,345.3 1330.15,344.82 " fill="none" id="requestLambda-&gt;processingQueue" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1325.09,344.78,1334.0554,348.857,1330.0898,344.8229,1334.124,340.8573,1325.09,344.78" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="1367" y="313.5684">Queue Network</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="1356" y="328.8789">Request Responses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="1384.5" y="343.2227">[HTTP POST]</text><!--link requestLambda to tenorApiService--><path d="M1714.5,393.32 C1788.77,432.63 1893.01,487.81 1955.91,521.11 " fill="none" id="requestLambda-&gt;tenorApiService" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1960.37,523.46,1954.2955,515.7075,1955.9535,521.116,1950.5451,522.7739,1960.37,523.46" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1775" y="391.5684">Send Tenor API</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="1801" y="406.8789">Request</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37" x="1810" y="421.2227">[REST]</text><!--link requestLambda to dynamoDb--><path d="M1714.5,347 C1777.83,347 1862.94,347 1925.65,347 " fill="none" id="requestLambda-&gt;dynamoDb" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1930.88,347,1921.88,343,1925.88,347,1921.88,351,1930.88,347" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1765" y="343.5684">Query for Tenor ID</text><!--
+@startuml "Contralto Container Diagram"
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+
+
+
+
+skinparam wrapWidth 200
+
+left to right direction
+
+rectangle "==Telegram User\n\n A Telegram user" <<external_person>> as user
+
+rectangle "==Telegram\n<size:12>[System]</size>" <<boundary>> as c1 {
+    rectangle "==Telegram Webhook Server" <<external_system>> as telegramWebhookService
+}
+
+rectangle "==Amazon Web Services\n<size:12>[System]</size>" <<boundary>> as c2 {
+
+    rectangle "==Webhook Gateway\n//<size:12>[AWS API Gateway]</size>//\n\n Receives webhook requests from Telegram" <<container>> as awsAPIGateway
+
+    rectangle "==Task Processing Queue\n//<size:12>[AWS Simple Queue Service]</size>//\n\n Message queue for processing tasks" <<container>> as processingQueue
+
+    rectangle "==Network Requests Queue\n//<size:12>[AWS Simple Queue Service]</size>//\n\n Message Queue for network request tasks" <<container>> as requestQueue
+
+    rectangle "==Processing Lambda Functions\n//<size:12>[AWS Lambda Functions]</size>//\n\n Computational Processing Functions" <<container>> as processingLambda
+
+    rectangle "==Network Request Lambda Functions\n//<size:12>[AWS Lambda Functions]</size>//\n\n Processing of External Network Requests" <<container>> as requestLambda
+
+    database "==Tenor ID Store\n//<size:12>[AWS DynamoDB]</size>//\n\n Storage of Tenor IDs" <<container>> as dynamoDb
+}
+
+rectangle "==Tenor API\n<size:12>[System]</size>" <<boundary>> as c3 {
+    rectangle "==Tenor API Gateway" <<external_system>> as tenorApiService
+}
+
+user - -> telegramWebhookService : "===Sends search query\n//<size:12>[Telegram Protocols]</size>//"
+
+telegramWebhookService - -> awsAPIGateway : "===Sends webhook request\n//<size:12>[HTTP POST]</size>//"
+
+awsAPIGateway - -> processingQueue : "===Queue Search Query\n//<size:12>[HTTP POST]</size>//"
+
+processingQueue -> processingLambda : "===Invoke"
+
+processingLambda - -> requestQueue : "===Queue Network Request Tasks\n//<size:12>[HTTP POST]</size>//"
+
+requestQueue -> requestLambda : "===Invoke"
+
+requestLambda - -> processingQueue : "===Queue Network Request Responses\n//<size:12>[HTTP POST]</size>//"
+
+requestLambda - -> tenorApiService : "===Send Tenor API Request\n//<size:12>[REST]</size>//"
+
+requestLambda - -> dynamoDb : "===Query for Tenor ID"
+
+@enduml
+
+PlantUML version 1.2019.09(Tue Aug 27 00:19:51 SGT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 13.0.2+8
+Operating System: Mac OS X
+OS Version: 10.15.3
+Default Encoding: UTF-8
+Language: en
+Country: SG
+--></g></svg>
