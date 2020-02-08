@@ -1,0 +1,49 @@
+@startuml "Contralto Activity Diagram"
+
+!include ../plantuml_cf_theme/config.txt
+
+skinparam DefaultFontName "Verdana"
+
+start
+
+:Receive Telegram Update;
+
+if (Type of update?) then (inline_query update)
+
+:Extract \nSearch Query, \nPage Number, \nInline Query ID, \nUser ID, \nUser Language Code;
+:Send DB query if User ID Exists;
+
+if (User ID Exists) then (yes)
+    :Send DB request to get User's Tenor Anonymous ID;
+else(no)
+    :Send request to Tenor to create new Tenor Anonymous ID;
+    :Send DB request to store User's Tenor Anonymous ID;
+endif
+
+if (Search Query is empty) then (no)
+    :Send Search request to Tenor API;
+else (yes)
+    :Send Trending GIFs request to Tenor API;
+endif
+
+:Filter response for both preview media URLs and MP4 media URLs;
+:Send answerInlineQuery request to Telegram;
+
+else (chosen_inline_result)
+:Extract \nresult_id, \nquery, \nUser ID, \nUser Language Code;
+:Send DB query if User ID Exists;
+
+if (User ID Exists) then (yes)
+    :Send DB request to get User's Tenor Anonymous ID;
+else(no)
+    :Send request to Tenor to create new Tenor Anonymous ID;
+    :Send DB request to store User's Tenor Anonymous ID;
+endif
+
+:Send Share request to Tenor API;
+
+endif
+
+stop
+
+@enduml
